@@ -1,5 +1,5 @@
 {
-    "name": "catoth/html2opendocument",
+    "name": "epse/html2opendocument",
     "description": "Converting simple HTML to Opendocument Text (ODT) or Spreadsheets (ODS)",
     "type": "library",
     "minimum-stability": "stable",
@@ -12,8 +12,8 @@
     ],
     "authors": [
         {
-            "name": "Tobias Hößl",
-            "email": "tobias@hoessl.eu"
+            "name": "Stef Pletinck",
+            "email": "s@stefpletinck.be"
         }
     ],
     "require": {
