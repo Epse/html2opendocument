@@ -22,7 +22,7 @@ $html = '<p>This is a demo for the converter.</p>
     <li><del>DEL</del> (Deleted text)</li>
     <li>Line<br>breaks with BR</li>
 </ul>
-<blockquote>You can also use BLOCKQUOTE, though it lacks specific styling for now</blockquote>';
+<blockquote>You can also use BLOCKQUOTE, it is even styled!</blockquote>';
 
 $html2 = '<p>You might be interested<br>in the fact that this converter<br>
 also supports<br>line numbering<br>for selected paragraphs</p>
@@ -81,7 +81,7 @@ $html = '<p>The converter supports the following styles:</p>
     <li>Line<br>breaks with BR</li>
     <li>Lists (UL / OL) cannot be displayed as lists, but will be flattened to paragraphs</li>
 </ul>
-<blockquote>You can also use BLOCKQUOTE, though it lacks specific styling for now</blockquote>';
+<blockquote>You can also use BLOCKQUOTE, it will be styled!</blockquote>';
 
 $ods->setMinRowHeight(3, 10);
 $ods->setColumnWidth(1, 20);
