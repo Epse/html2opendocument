@@ -270,7 +270,7 @@ class Text extends Base
                         break;
                     case 'blockquote':
                         $dstEl = $this->createNodeWithBaseStyle('p', $lineNumbered);
-                        $class = ($lineNumbered ? 'Blockquote_Linenumbered' : 'Blockquote');
+                        $class = ($lineNumbered ? 'Blockquote_Linenumbered' : 'Quotation');
                         $dstEl->setAttribute('text:style-name', 'Antragsgrün_20_' . $class);
                         if ($srcNode->childNodes->length == 1) {
                             foreach ($srcNode->childNodes as $child) {
